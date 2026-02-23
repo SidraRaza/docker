@@ -59,3 +59,18 @@ Docker mein kisi bhi image ko run karne ke liye yeh command use hoti hai:
 
 ```bash
 docker run image_name
+```
+
+## 🖥️ Interactive Mode kya hota hai?
+
+Interactive mode ka matlab hota hai **container ke andar live terminal use karna**.
+
+Simple words mein:
+
+👉 Aap container ke andar ja kar commands type kar sakte ho  
+👉 Container ke sath live communication hota hai  
+
+👉 Interactive mode use karne ke liye `-it` flag use hota hai:
+
+```bash
+docker run -it image_name
