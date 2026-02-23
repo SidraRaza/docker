@@ -74,3 +74,61 @@ Simple words mein:
 
 ```bash
 docker run -it image_name
+```
+
+## 🚪 Container se Bahar Nikalna (Exit)
+
+Agar aap container ke interactive mode mein hain aur bahar nikalna chahte hain, to yeh command use karen:
+
+```bash
+exit
+```
+
+## 📋 Running aur Closed Containers Dekhne ke Liye
+
+Agar aap **sab containers (running + stopped)** dekhna chahte hain, to yeh command use karen:
+
+```bash
+docker ps -a
+```
+
+## 📋 Running Containers Dekhne ke Liye
+
+Agar aap sirf **running containers** dekhna chahte hain, to yeh command use karen:
+
+```bash
+docker ps
+```
+
+## ▶️ Stopped Container Start Karne ke Liye
+
+Agar aap stopped container ko dubara start karna chahte hain, to yeh command use karen:
+
+```bash
+docker start container_id
+```
+
+## ⏹️ Running Container Stop Karne ke Liye
+
+Agar aap running container ko stop karna chahte hain, to yeh command use karen:
+
+```bash
+docker stop container_id
+```
+
+## 🗑️ Docker Image Delete Karne ke Liye
+
+Agar aap Docker image remove karna chahte hain, to yeh command use karen:
+
+```bash
+docker rmi image_name
+```
+
+## 🗑️ Container Delete Karne ke Liye
+
+Agar aap Docker container remove karna chahte hain, to yeh command use karen:
+
+```bash
+docker rm container_id
+```
+
