@@ -51,3 +51,11 @@ docker pull image_name
 ### Available images dekhne ke liye
 ```bash
 docker images
+```
+
+### 🐳 Docker Test Karne ke Liye (Image Run Karna)
+
+Docker mein kisi bhi image ko run karne ke liye yeh command use hoti hai:
+
+```bash
+docker run image_name
