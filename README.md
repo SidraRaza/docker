@@ -48,7 +48,6 @@ docker
 docker pull image_name
 ```
 
-### docker pull ubuntu
 ### Available images dekhne ke liye
 ```bash
 docker images
